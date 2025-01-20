@@ -42,7 +42,6 @@ jobs:
             -f 'output[summary]=A *fancy* summary' \
             -f 'output[text]=More detailed Markdown **text**' \
             --jq '.id' \
-
             /repos/${{ github.repository }}/check-runs)
 
           ####################################################
