@@ -33,7 +33,6 @@ jobs:
             -f 'output[images][][image_url]=https://www.kenmuse.com/favicon/apple-touch-icon.png' \
             -f 'output[images][][caption]=Sample from kenmuse.com' \
             -f 'output[images][][alt]=Logo for kenmuse.com' \
-
             /repos/${{ github.repository }}/check-runs/${{ github.event.client_payload.checkRunId }}
 
       ####################################################
